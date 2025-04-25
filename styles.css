@@ -1,0 +1,183 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'lora', serif;
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 20%);
+}
+
+header {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(0, 0%, 20%);
+    border-bottom: 1px solid hsl(0, 0%, 87%);
+}
+
+header img{
+   width: 200px;
+   padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 20%);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: hsl(43, 89%, 38%)
+}
+
+.promotion {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: hsl(33, 22%, 90%);
+    text-align: left;
+    gap: 40px;
+}
+
+.promotion article {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 80%;
+}
+
+.promotion img {
+    width: auto;
+    max-width: 50%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 80%); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.promotion-content {
+    max-width: 45%;
+}
+
+.promotion h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.promotion p {
+    font-size: 18px;
+    color: hsl(0, 0%, 40%);
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(43, 89%, 38%);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: hsl(43, 79%, 28%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.promo-boxes {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.promo-boxes article {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    background-color: hsl(44, 52%, 96%);
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 350px; 
+    text-align: center;
+}
+
+.promo-boxes article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0%, 0%, 0.2); 
+    border-color: hsl(43, 89%, 38%); 
+}
+
+.promo-boxes article img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.promo-boxes article img[alt="Anniversary Gifts"] {
+    object-position: center 85%; 
+}
+
+
+.promo-boxes article h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.promo-boxes article p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: hsl(0, 0%, 40%);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: hwb(0 100% 0%);
+    margin-top: 20px;
+    border-top: 1px solid hsl(0, 0%, 87%);
+}
+
+footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: hsl(0, 0%, 20%);
+   color: white;
+   padding:20px;
+}
+
+.footer-column {
+    width: 50%;
+    text-align: center;
+}
+
+.footer-column img{
+    max-width: 200px;
+    height: auto;
+    padding: 15px;
+}
